@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types'
-import Mode from "./Mode";
 export default class Navbar extends Component {
   static defaultProps ={
     mode:"light" 
@@ -104,7 +103,6 @@ export default class Navbar extends Component {
                 </li>
               </ul>
             </div>
-            <Mode/>
           </div>
         </nav>
       </div>
