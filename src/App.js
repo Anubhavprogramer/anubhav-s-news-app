@@ -43,7 +43,7 @@ export default class App extends Component {
           <LoadingBar color="#f11946" progress={this.state.progress} />
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
-            <Route exact path="/Business"element={
+            <Route  path="/Business"element={
                 <News
                   setProgress={this.setProgress}
                   pageSize={this.pagesize}
@@ -54,7 +54,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/Entertainment"
               element={
                 <News
@@ -67,7 +67,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/General"
               element={
                 <News
@@ -80,7 +80,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/Health"
               element={
                 <News
@@ -93,7 +93,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/Science"
               element={
                 <News
@@ -106,7 +106,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/sports"
               element={
                 <News
@@ -119,7 +119,7 @@ export default class App extends Component {
               }
             ></Route>
             <Route
-              exact
+            
               path="/Technology"
               element={
                 <News
