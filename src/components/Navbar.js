@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+
 export default class Navbar extends Component {
-  static defaultProps ={
-    mode:"light" 
+  static defaultProps = {
+    mode: "light"
   }
 
   static propTypes = {
     mode: PropTypes.string,
   }
-  // constructor(props){
-  //   super(props)
-  // }
+
   render() {
     return (
       <div>
