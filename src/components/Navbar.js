@@ -8,9 +8,9 @@ export default class Navbar extends Component {
   static propTypes = {
     mode: PropTypes.string,
   }
-  constructor(props){
-    super(props)
-  }
+  // constructor(props){
+  //   super(props)
+  // }
   render() {
     return (
       <div>
